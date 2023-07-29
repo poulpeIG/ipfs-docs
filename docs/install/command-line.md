@@ -118,7 +118,7 @@ For installation instructions for your operating system, select the appropriate 
 1. Add the location of your Kubo daemon and add it to PowerShell's `PATH` by truncating it to the end of your PowerShell profile:
 
    ```powershell
-   Add-Content $PROFILE "`n[System.Environment]::SetEnvironmentVariable('PATH',`$Env:PATH+';;$GO_IPFS_LOCATION')"
+   Add-Content $PROFILE "'n[System.Environment]::SetEnvironmentVariable('PATH','$Env:PATH+';;$GO_IPFS_LOCATION')"
    ```
 
 1. Load your `$PROFILE`:
