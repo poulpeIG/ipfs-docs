@@ -90,7 +90,7 @@ For installation instructions for your operating system, select the appropriate 
 1. Check that the `ipfs.exe` works:
 
    ```powershell
-   .\ipfs.exe --version
+   .\ipfs.exe version
 
    > ipfs version 0.21.0
    ```
